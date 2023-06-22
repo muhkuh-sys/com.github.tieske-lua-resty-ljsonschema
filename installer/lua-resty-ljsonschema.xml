@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jonchki-artifact version="1.0">
+	<info group="com.github.tieske"
+	      module="lua-resty-ljsonschema"
+	      artifact="lua-resty-ljsonschema"
+	      version="${PROJECT_VERSION}"
+	      vcs-id="${PROJECT_VERSION_VCS}">
+		<license name="MIT"/>
+		<author name="Thijs Schreijer" url="https://github.com/Tieske/lua-resty-ljsonschema" />
+		<description>
+			Pure Lua JSON schema validator.
+		</description>
+	</info>
+	<dependencies>
+		<dependency group="com.github.openresty" module="lua-cjson" artifact="lua5.4-lua-cjson" version="2"/>
+		<dependency group="com.github.golgote"   module="neturl"    artifact="neturl"           version="1"/>
+	</dependencies>
+</jonchki-artifact>
