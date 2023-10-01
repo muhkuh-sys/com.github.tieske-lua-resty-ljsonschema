@@ -36,10 +36,10 @@ import tarfile
 #
 # Depack the source archive.
 #
-tSrcArchive = tarfile.open('lua-resty-ljsonschema-1.1.4.tar.gz', 'r')
+tSrcArchive = tarfile.open('lua-resty-ljsonschema-1.1.6.tar.gz', 'r')
 tSrcArchive.extractall('targets/depack')
 tSrcArchive.close()
-strDepackPath = 'targets/depack/lua-resty-ljsonschema-1.1.4/src'
+strDepackPath = 'targets/depack/lua-resty-ljsonschema-1.1.6/src'
 
 #----------------------------------------------------------------------------
 #
